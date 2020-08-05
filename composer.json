@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "respect/validation": "^2.0"
+        "respect/validation": "^2.0",
+        "symfony/property-access": "^5.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.2"
