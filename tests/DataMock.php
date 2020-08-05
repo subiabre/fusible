@@ -9,4 +9,6 @@ class DataMock
     private $password = 'password';
 
     private $number = 0;
+
+    public $blank;
 }
