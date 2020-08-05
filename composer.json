@@ -13,5 +13,11 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": { "Fuse\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Fuse\\Tests\\": "tests/" }
     }
 }
