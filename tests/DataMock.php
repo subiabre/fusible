@@ -12,9 +12,9 @@ class DataMock
 
     private $blank;
 
-    public function setBlank($blank): self
+    public function set($name, $value): self
     {
-        $this->blank = $blank;
+        $this->$name = $value;
 
         return $this;
     }
