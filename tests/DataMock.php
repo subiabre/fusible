@@ -4,9 +4,9 @@ namespace Fusible\Tests;
 
 class DataMock
 {
-    private $name = 'name';
+    private $name;
 
-    private $password = 'password';
+    private $password;
 
     private $number = 0;
 
