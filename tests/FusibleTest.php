@@ -25,7 +25,6 @@ class FusibleTest extends TestCase
         $data
             ->set('name', 'non empty string')
             ->set('password', 'non empty string')
-            ->set('name', 'not a number')
             ;
 
         $result = $fusible->assert($data);
