@@ -7,7 +7,7 @@ use Respect\Validation\Validator;
 
 class DataFusible extends AbstractFusible
 {
-    protected function getRules(Validator $validator): Validator   
+    protected function setRules(Validator $validator): Validator   
     {
         $validator->allOf(
             $validator::attribute('name', $validator::notBlank()),
